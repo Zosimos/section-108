@@ -1,0 +1,2 @@
+python venv
+go to folder each time in CLI and run command venv\Scripts\activate to activate the virtual environment.
