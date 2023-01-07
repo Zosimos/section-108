@@ -1,2 +1,26 @@
 python venv
 go to folder each time in CLI and run command venv\Scripts\activate to activate the virtual environment.
+
+
+#open directory of project
+open comand prompt, type cd and drag and drop project file.
+
+
+#create new repository for project
+open CLI
+use command git init  initialize a new repository at that location
+go to github, create new repository
+copy the https url
+type in CLI  git remote add origin URL  add copied url in place of "url"
+
+
+#commit - creates a local copy
+in CLI - git add . - (must add period)
+git commit -m "any message" (must include git commit message in quotes)
+
+#push
+for the first push -
+in CLI  git push -u origin master 
+
+    #any time after this first push
+    git push
